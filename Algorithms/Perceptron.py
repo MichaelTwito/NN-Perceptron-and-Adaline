@@ -1,7 +1,7 @@
-from Algorithms.Algorithm import Algorithm
+# from Algorithms.Algorithm import Algorithm
 
 
-class Perceptron(Algorithm):
+class Perceptron(object):
     """
         This class represents an Perceptron algorithm.
     """

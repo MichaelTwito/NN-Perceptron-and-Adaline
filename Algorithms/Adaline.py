@@ -1,7 +1,7 @@
-from Algorithms.Algorithm import Algorithm
+# from Algorithms.Algorithm import Algorithm
 
 
-class Adaline(Algorithm):
+class Adaline(object):
     """
         This class represents an Adaline algorithm.
     """
