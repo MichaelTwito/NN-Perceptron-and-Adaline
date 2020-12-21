@@ -23,7 +23,7 @@ class handler(object):
 
     def get_train_and_test_data_by_ratio(self,ratio):
         size_of_recurrent_train_examples = int(len(self.recurrent_examples)*ratio)
-        size_of_non_recurrent_train_examples = int(len(self.recurrent_examples)*ratio)
+        size_of_non_recurrent_train_examples = int(len(self.non_recurrent_examples)*ratio)
         
         size_of_recurrent_test_examples = int(len(self.recurrent_examples)) - size_of_recurrent_train_examples
         size_of_non_recurrent_test_examples = int(len(self.non_recurrent_examples)) - size_of_non_recurrent_train_examples

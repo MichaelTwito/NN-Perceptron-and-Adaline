@@ -17,8 +17,10 @@ class parser(object):
         return self._normalized_dataset
 
     def _normalize_dataset(self):
+        self.data_frame[34] = self.data_frame[34].replace(['?'],3)
         self.data_frame[1] = self.data_frame[1].replace(['R'], 1)
         self.data_frame[1] = self.data_frame[1].replace(['N'], -1)
         self.data_frame[self.data_frame.shape[1] - 1] = self.data_frame[self.data_frame.shape[1] - 1].replace(['?'], 0)
+        self.data_frame[34] = self.data_frame[34].astype(int)
 
         return self.data_frame.set_index(0).T.to_dict('list')
