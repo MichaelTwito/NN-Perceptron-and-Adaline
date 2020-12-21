@@ -1,5 +1,8 @@
 import random
- 
+
+import numpy
+
+
 class handler(object):
     """
     This class will split the two sets(recurrent,non recurrent),
@@ -31,3 +34,12 @@ class handler(object):
         train_data = shuffled_recurrent_examples[0:size_of_recurrent_train_examples] + shuffled_non_recurrent_examples[0:size_of_non_recurrent_train_examples]  
         test_data = shuffled_recurrent_examples[size_of_recurrent_train_examples:] + shuffled_non_recurrent_examples[size_of_non_recurrent_train_examples:]
         return train_data, test_data
+
+
+    def extract_label_from_data(self,data):
+        label_list = [list[0] for list in data]
+        return numpy.array(label_list,dtype=numpy.double)
+
+    def extract_features_from_labeled_data(self,data):
+        feature_list = [list[1:] for list in data]
+        return numpy.array(feature_list,dtype=numpy.double).astype(numpy.double);
