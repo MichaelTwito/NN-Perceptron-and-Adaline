@@ -25,12 +25,22 @@ def main():
     test_unlabled = plain_dataset.extract_features_from_labeled_data(test_dataset)
     train_label = plain_dataset.extract_label_from_data(train_dataset)
     test_label = plain_dataset.extract_label_from_data(test_dataset)
-    perceptron = Perceptron(dim=len(train_unlabeled[0]))
+    perceptron = Perceptron(dim=len(train_unlabeled[0]),max_epoch=100)
 
-    perceptron.train(data = train_unlabeled,label=train_label,logs=True)
-    print (len(train_dataset))
+    perceptron.train(data = train_unlabeled,label=train_label)
+    print(test_unlabled.shape[0])
+    counter = 0
+    for test_item,test_item_label in zip(test_unlabled,test_label):
+        if perceptron.predict(test_item)[0] * test_item_label<0:
+            counter += 1
+            print("miss")
+            print(test_item)
+            print(test_item_label)
+    print('misses: '+str(counter))
 
-    print (len(test_dataset))
+    # print (len(train_dataset))
+
+    # print (len(test_dataset))
 
 
 
