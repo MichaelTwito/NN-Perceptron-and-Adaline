@@ -24,10 +24,3 @@ class Perceptron(object):
 
     def predict(self, data):
         return np.sign((np.sum(self.W*data, axis=-1)+self.b))
-
-    def score(self, data, labels):
-        if x.shape[-1] != self.dim:
-            print("The input shape is incorrect!")
-            return 0
-        dis = np.abs(np.sum(self.W * data, axis=-1) + self.b) * labels
-        return -np.sum(dis * (dis < 0)) * 1 / np.norm(self.W)
