@@ -8,18 +8,18 @@ class BackPropogation(object):
     def __init__(self,hiddenSize):
         #parameters
         self.inputSize = 33
-        self.outputSize = 1
+        self.outputSize = 2
         self.hiddenSize = hiddenSize
         
         #weights
-        self.W1 = np.random.randn(self.inputSize, self.hiddenSize) # (33x2) weight matrix from input to hidden layer
-        self.W2 = np.random.randn(self.hiddenSize, self.outputSize) # (35x1) weight matrix from hidden to output layer
+        self.W1 = np.random.randn(self.inputSize, self.hiddenSize) #  weight matrix from input to hidden layer
+        self.W2 = np.random.randn(self.hiddenSize, self.outputSize) #  weight matrix from hidden to output layer
         
     def feedForward(self, X):
         #forward propogation through the network
-        self.z = np.dot(X, self.W1) #dot product of X (input) and first set of weights (3x2)
+        self.z = np.dot(X, self.W1) #dot product of X (input) and first set of weights 
         self.z2 = self.sigmoid(self.z) #activation function
-        self.z3 = np.dot(self.z2, self.W2) #dot product of hidden layer (z2) and second set of weights (3x1)
+        self.z3 = np.dot(self.z2, self.W2) #dot product of hidden layer (z2) and second set of weights 
         output = self.sigmoid(self.z3)
         return output
         
