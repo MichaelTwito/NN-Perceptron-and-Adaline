@@ -1,0 +1,522 @@
+Dataset ratio: 66.0% for train, the rest for test
+---------------------------------------------------------------------------------------------
+ Iterations number: 10000 Hidden layer size: 33
+ ---------------------------------------------------------------------------------------------
+
+/home/michael/Projects/ML/NN-Perceptron-and-Adaline/Algorithms/BackPropogation.py:29: RuntimeWarning: overflow encountered in exp
+  return (2/(1 + np.exp(-s))) - 1
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 52 precent: 76.47058823529412%
+False negative: 0 precent: 0.0%
+Success rate: 23.52941176470588%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 10000 Hidden layer size: 36
+ ---------------------------------------------------------------------------------------------
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 11 precent: 16.176470588235293%
+True negative: 4 precent: 5.88235294117647%
+False positive: 13 precent: 19.11764705882353%
+False negative: 38 precent: 55.88235294117647%
+Success rate: 72.05882352941177%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 80000 Hidden layer size: 42
+ ---------------------------------------------------------------------------------------------
+
+True positive: 0 precent: 0.0%
+True negative: 8 precent: 11.76470588235294%
+False positive: 0 precent: 0.0%
+False negative: 42 precent: 61.76470588235294%
+Success rate: 61.76470588235294%
+
+
+True positive: 5 precent: 7.352941176470589%
+True negative: 6 precent: 8.823529411764707%
+False positive: 15 precent: 22.058823529411764%
+False negative: 33 precent: 48.529411764705884%
+Success rate: 55.88235294117647%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 1 precent: 1.4705882352941175%
+False negative: 51 precent: 75.0%
+Success rate: 75.0%
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 10000 Hidden layer size: 33
+ ---------------------------------------------------------------------------------------------
+
+/home/michael/Projects/ML/NN-Perceptron-and-Adaline/Algorithms/BackPropogation.py:29: RuntimeWarning: overflow encountered in exp
+  return (2/(1 + np.exp(-s))) - 1
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 39 precent: 57.35294117647059%
+False negative: 0 precent: 0.0%
+Success rate: 23.52941176470588%
+
+
+True positive: 1 precent: 1.4705882352941175%
+True negative: 15 precent: 22.058823529411764%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 75.0%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 10000 Hidden layer size: 36
+ ---------------------------------------------------------------------------------------------
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+True positive: 1 precent: 1.4705882352941175%
+True negative: 15 precent: 22.058823529411764%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 75.0%
+
+
+True positive: 11 precent: 16.176470588235293%
+True negative: 5 precent: 7.352941176470589%
+False positive: 18 precent: 26.47058823529412%
+False negative: 29 precent: 42.64705882352941%
+Success rate: 58.82352941176471%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 20000 Hidden layer size: 42
+ ---------------------------------------------------------------------------------------------
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 50 precent: 73.52941176470588%
+False negative: 2 precent: 2.941176470588235%
+Success rate: 26.470588235294116%
+
+
+True positive: 11 precent: 16.176470588235293%
+True negative: 5 precent: 7.352941176470589%
+False positive: 19 precent: 27.941176470588236%
+False negative: 33 precent: 48.529411764705884%
+Success rate: 64.70588235294117%
+
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 48 precent: 70.58823529411765%
+False negative: 1 precent: 1.4705882352941175%
+Success rate: 24.999999999999996%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 30000 Hidden layer size: 51
+ ---------------------------------------------------------------------------------------------
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 51 precent: 75.0%
+False negative: 1 precent: 1.4705882352941175%
+Success rate: 24.999999999999996%
+
+
+True positive: 15 precent: 22.058823529411764%
+True negative: 1 precent: 1.4705882352941175%
+False positive: 24 precent: 35.294117647058826%
+False negative: 26 precent: 38.23529411764706%
+Success rate: 60.294117647058826%
+
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 40000 Hidden layer size: 63
+ ---------------------------------------------------------------------------------------------
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 51 precent: 75.0%
+False negative: 1 precent: 1.4705882352941175%
+Success rate: 24.999999999999996%
+
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+True positive: 15 precent: 22.058823529411764%
+True negative: 1 precent: 1.4705882352941175%
+False positive: 39 precent: 57.35294117647059%
+False negative: 13 precent: 19.11764705882353%
+Success rate: 41.17647058823529%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 50000 Hidden layer size: 78
+ ---------------------------------------------------------------------------------------------
+
+True positive: 5 precent: 7.352941176470589%
+True negative: 10 precent: 14.705882352941178%
+False positive: 3 precent: 4.411764705882353%
+False negative: 48 precent: 70.58823529411765%
+Success rate: 77.94117647058825%
+
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 51 precent: 75.0%
+False negative: 1 precent: 1.4705882352941175%
+Success rate: 24.999999999999996%
+
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 60000 Hidden layer size: 96
+ ---------------------------------------------------------------------------------------------
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 43 precent: 63.23529411764706%
+False negative: 8 precent: 11.76470588235294%
+Success rate: 35.29411764705882%
+
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+True positive: 10 precent: 14.705882352941178%
+True negative: 4 precent: 5.88235294117647%
+False positive: 19 precent: 27.941176470588236%
+False negative: 32 precent: 47.05882352941176%
+Success rate: 61.76470588235294%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 70000 Hidden layer size: 117
+ ---------------------------------------------------------------------------------------------
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+True positive: 11 precent: 16.176470588235293%
+True negative: 5 precent: 7.352941176470589%
+False positive: 15 precent: 22.058823529411764%
+False negative: 37 precent: 54.41176470588235%
+Success rate: 70.58823529411764%
+
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 80000 Hidden layer size: 141
+ ---------------------------------------------------------------------------------------------
+
+True positive: 11 precent: 16.176470588235293%
+True negative: 4 precent: 5.88235294117647%
+False positive: 19 precent: 27.941176470588236%
+False negative: 32 precent: 47.05882352941176%
+Success rate: 63.23529411764706%
+
+
+True positive: 2 precent: 2.941176470588235%
+True negative: 14 precent: 20.588235294117645%
+False positive: 2 precent: 2.941176470588235%
+False negative: 50 precent: 73.52941176470588%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 10000 Hidden layer size: 25
+ ---------------------------------------------------------------------------------------------
+
+/home/michael/Projects/ML/NN-Perceptron-and-Adaline/Algorithms/BackPropogation.py:29: RuntimeWarning: overflow encountered in exp
+  return (2/(1 + np.exp(-s))) - 1
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 52 precent: 76.47058823529412%
+False negative: 0 precent: 0.0%
+Success rate: 23.52941176470588%
+
+
+True positive: 12 precent: 17.647058823529413%
+True negative: 4 precent: 5.88235294117647%
+False positive: 26 precent: 38.23529411764706%
+False negative: 25 precent: 36.76470588235294%
+Success rate: 54.411764705882355%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 1 precent: 1.4705882352941175%
+False negative: 51 precent: 75.0%
+Success rate: 75.0%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 10000 Hidden layer size: 25
+ ---------------------------------------------------------------------------------------------
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 52 precent: 76.47058823529412%
+False negative: 0 precent: 0.0%
+Success rate: 23.52941176470588%
+
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 52 precent: 76.47058823529412%
+False negative: 0 precent: 0.0%
+Success rate: 23.52941176470588%
+
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 52 precent: 76.47058823529412%
+False negative: 0 precent: 0.0%
+Success rate: 23.52941176470588%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 20000 Hidden layer size: 26
+ ---------------------------------------------------------------------------------------------
+
+True positive: 0 precent: 0.0%
+True negative: 5 precent: 7.352941176470589%
+False positive: 0 precent: 0.0%
+False negative: 29 precent: 42.64705882352941%
+Success rate: 42.64705882352941%
+
+
+True positive: 1 precent: 1.4705882352941175%
+True negative: 15 precent: 22.058823529411764%
+False positive: 1 precent: 1.4705882352941175%
+False negative: 51 precent: 75.0%
+Success rate: 76.47058823529412%
+
+
+True positive: 16 precent: 23.52941176470588%
+True negative: 0 precent: 0.0%
+False positive: 43 precent: 63.23529411764706%
+False negative: 7 precent: 10.294117647058822%
+Success rate: 33.8235294117647%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 30000 Hidden layer size: 27
+ ---------------------------------------------------------------------------------------------
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 13 precent: 19.11764705882353%
+True negative: 3 precent: 4.411764705882353%
+False positive: 30 precent: 44.11764705882353%
+False negative: 22 precent: 32.35294117647059%
+Success rate: 51.470588235294116%
+
+
+True positive: 15 precent: 22.058823529411764%
+True negative: 0 precent: 0.0%
+False positive: 34 precent: 50.0%
+False negative: 7 precent: 10.294117647058822%
+Success rate: 32.35294117647059%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 40000 Hidden layer size: 28
+ ---------------------------------------------------------------------------------------------
+
+True positive: 15 precent: 22.058823529411764%
+True negative: 1 precent: 1.4705882352941175%
+False positive: 32 precent: 47.05882352941176%
+False negative: 20 precent: 29.411764705882355%
+Success rate: 51.470588235294116%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 50000 Hidden layer size: 29
+ ---------------------------------------------------------------------------------------------
+
+True positive: 0 precent: 0.0%
+True negative: 7 precent: 10.294117647058822%
+False positive: 0 precent: 0.0%
+False negative: 37 precent: 54.41176470588235%
+Success rate: 54.41176470588235%
+
+
+True positive: 0 precent: 0.0%
+True negative: 9 precent: 13.23529411764706%
+False positive: 0 precent: 0.0%
+False negative: 41 precent: 60.29411764705882%
+Success rate: 60.29411764705882%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 60000 Hidden layer size: 30
+ ---------------------------------------------------------------------------------------------
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 8 precent: 11.76470588235294%
+True negative: 8 precent: 11.76470588235294%
+False positive: 13 precent: 19.11764705882353%
+False negative: 36 precent: 52.94117647058824%
+Success rate: 64.70588235294117%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 70000 Hidden layer size: 31
+ ---------------------------------------------------------------------------------------------
+
+True positive: 11 precent: 16.176470588235293%
+True negative: 4 precent: 5.88235294117647%
+False positive: 24 precent: 35.294117647058826%
+False negative: 16 precent: 23.52941176470588%
+Success rate: 39.705882352941174%
+
+
+True positive: 0 precent: 0.0%
+True negative: 15 precent: 22.058823529411764%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 8 precent: 11.76470588235294%
+True negative: 6 precent: 8.823529411764707%
+False positive: 16 precent: 23.52941176470588%
+False negative: 30 precent: 44.11764705882353%
+Success rate: 55.88235294117647%
+
+
+---------------------------------------------------------------------------------------------
+ Iterations number: 80000 Hidden layer size: 32
+ ---------------------------------------------------------------------------------------------
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%
+
+
+True positive: 0 precent: 0.0%
+True negative: 16 precent: 23.52941176470588%
+False positive: 0 precent: 0.0%
+False negative: 52 precent: 76.47058823529412%
+Success rate: 76.47058823529412%

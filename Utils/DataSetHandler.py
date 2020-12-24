@@ -42,4 +42,4 @@ class handler(object):
 
     def extract_features_from_labeled_data(self,data):
         feature_list = [list[1:] for list in data]
-        return numpy.array(feature_list,dtype=numpy.double).astype(numpy.double);
+        return numpy.array(feature_list,dtype=numpy.double);
