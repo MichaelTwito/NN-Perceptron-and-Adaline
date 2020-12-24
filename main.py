@@ -77,8 +77,15 @@ def main():
     test_unlabled = plain_dataset.extract_features_from_labeled_data(test_dataset)
     train_label = plain_dataset.extract_label_from_data(train_dataset)
     test_label = plain_dataset.extract_label_from_data(test_dataset)
-    # perceptron = Perceptron(dim=len(train_unlabled[0]))
-    # perceptron.train(data = train_unlabled,label=train_label,logs=True)
+
+    perceptron = Perceptron(dim=len(train_unlabeled[0]),max_epoch=100)
+
+    perceptron.train(data = train_unlabeled,label=train_label)
+    perceptron.score(test_unlabled,test_label)
+    # print (len(train_dataset))
+
+    # print (len(test_dataset))
+
     numer_of_runnings = 50
     run_backpropagation_with_shuffled_data(numer_of_runnings,plain_dataset)
 
