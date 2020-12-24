@@ -7,7 +7,7 @@ class Perceptron(object):
         This class represents an Perceptron algorithm.
     """
 
-    def __init__(self, dim=2, eta=0.5, max_epoch=10):
+    def __init__(self, dim=2, eta=0.01, max_epoch=10000):
         self.dim = dim
         self.W = np.random.rand(dim)
         self.b = np.zeros(1)
@@ -24,3 +24,10 @@ class Perceptron(object):
 
     def predict(self, data):
         return np.sign((np.sum(self.W*data, axis=-1)+self.b))
+
+    def score(self,test_data,test_labels):
+        count = 0
+        for test,label in zip(test_data,test_labels):
+            if self.predict(test) != label:
+                count +=1
+        print('total misses: '+str(count))
